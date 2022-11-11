@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
+  },
+  "name": "cc-api-project",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidspace-star28/cc-API-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidspace-star28/cc-API-project/issues"
+  },
+  "homepage": "https://github.com/davidspace-star28/cc-API-project#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.27.0",
+    "mocha": "^10.1.0"
+  }
+}
