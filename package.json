@@ -13,7 +13,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "test": "mocha test --exit",
+    "dev": "nodemon ./src/index.js",
     "migrate": "knex migrate:latest",
     "seed": "knex seed:run"
   },
@@ -30,6 +32,7 @@
   "homepage": "https://github.com/davidspace-star28/cc-API-project#readme",
   "devDependencies": {
     "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
     "eslint": "^8.27.0",
     "mocha": "^10.1.0"
   }
