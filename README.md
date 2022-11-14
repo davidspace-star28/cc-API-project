@@ -20,7 +20,8 @@ TBL 名: disney_movie
 
 ## データセット
 
-[こちら](https://data.world/kgarrett/disney-character-success-00-16)からデータ取得し一部利用。(2022/11/14 時点のデータ)
+[こちら](https://data.world/kgarrett/disney-character-success-00-16)からデータ取得し一部利用。
+下記は初期状態で TBL に insert しているデータ(2022/11/14 時点)
 
 ```json
 [
